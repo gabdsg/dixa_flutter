@@ -1,0 +1,32 @@
+name: dixa_flutter
+description: Flutter plugin for Dixa Messenger
+version: 0.0.1
+homepage: http://gabdsg.com/
+
+environment:
+  sdk: '>=2.19.0 <3.0.0'
+  flutter: ">=2.5.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_web_plugins:
+    sdk: flutter
+  plugin_platform_interface: ^2.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: org.talkingpts.dixa_flutter
+        pluginClass: DixaFlutterPlugin
+      ios:
+        pluginClass: DixaFlutterPlugin
+      web:
+        pluginClass: DixaFlutterWeb
+        fileName: dixa_flutter_web.dart
