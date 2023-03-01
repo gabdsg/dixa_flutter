@@ -1,0 +1,6 @@
+[submodule "ios/dixa"]
+	path = ios/dixa
+	url = git@github.com:dixahq/ios-messenger.git
+[submodule "ios/Assets/Dixa"]
+	path = ios/Assets/Dixa
+	url = git@github.com:dixahq/ios-messenger.git

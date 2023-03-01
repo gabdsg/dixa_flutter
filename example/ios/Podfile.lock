@@ -14,7 +14,7 @@ EXTERNAL SOURCES:
     :path: Flutter
 
 SPEC CHECKSUMS:
-  dixa_flutter: 811ca79fafbb8a7796b8f19ce17f24e13b5dd4cc
+  dixa_flutter: 4769886f27103a765eb1cb9da081cf3c2b8647f4
   Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
 
 PODFILE CHECKSUM: 4e8f8b2be68aeea4c0d5beb6ff1e79fface1d048

@@ -1,4 +1,0 @@
-framework module DixaMessenger {
-  header "DixaMessenger.h"
-  requires objc
-}

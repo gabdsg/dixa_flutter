@@ -21,7 +21,7 @@ Flutter plugin for Dixa Messenger.
   s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES', 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'i386' }
   s.swift_version = '5.0'
 
-  s.preserve_paths = 'DixaMessenger.xcframework/**/*'
-  s.xcconfig = { 'OTHER_LDFLAGS' => '-framework DixaMessenger' }
-  s.vendored_frameworks = 'DixaMessenger.xcframework'
+  s.preserve_paths = 'Assets/Dixa/DixaMessenger.xcframework/**/*'
+  s.xcconfig = { 'OTHER_LDFLAGS' => '-framework Assets/Dixa/DixaMessenger' }
+  s.vendored_frameworks = 'Assets/Dixa/DixaMessenger.xcframework'
 end
