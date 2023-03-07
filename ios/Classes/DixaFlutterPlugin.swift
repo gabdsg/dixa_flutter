@@ -32,6 +32,8 @@ public class DixaFlutterPlugin: NSObject, FlutterPlugin {
             result(true)
         case "openMessenger":
             Messenger.openMessenger(from: UIApplication.shared.windows.first!.rootViewController!)
+         case "processPushMessage":
+            result("No op")
         default:
             result("Method not implemented")
         }
