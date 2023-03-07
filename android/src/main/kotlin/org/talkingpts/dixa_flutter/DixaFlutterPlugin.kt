@@ -108,7 +108,7 @@ class DixaFlutterPlugin: FlutterPlugin, MethodCallHandler, ActivityAware {
 			DixaMessenger.openMessenger(activity = activity)
 		}
 		"processPushMessage" -> {
-			val remoteMessage = call.argument<RemoteMessage>("remoteMessage")
+			val remoteMessage: RemoteMessage = call.argument<RemoteMessage>("remoteMessage")
 			DixaMessenger.PushNotifications.processNewMessage(remoteMessage)
 		}
 		else -> {
