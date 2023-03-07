@@ -49,8 +49,4 @@ abstract class DixaFlutterPlatform extends PlatformInterface {
   Future<void> openMessenger() {
     throw UnimplementedError('openMessenger() has not been implemented.');
   }
-
-  Future<void> processPushMessage(Object message) async {
-    throw UnimplementedError('openMessenger() has not been implemented.');
-  }
 }

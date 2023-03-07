@@ -8,8 +8,6 @@ import android.app.Activity
 
 import com.dixa.messenger.DixaMessenger
 import com.dixa.messenger.LogLevel
-import com.google.firebase.messaging.RemoteMessage
-
 
 import io.flutter.embedding.engine.plugins.FlutterPlugin
 import io.flutter.plugin.common.MethodCall
@@ -106,12 +104,6 @@ class DixaFlutterPlugin: FlutterPlugin, MethodCallHandler, ActivityAware {
 		}
 		"openMessenger" -> {
 			DixaMessenger.openMessenger(activity = activity)
-		}
-		"processPushMessage" -> {
-			val remoteMessage: RemoteMessage? = call.argument<RemoteMessage>("remoteMessage")
-			if (remoteMessage != null) {
-				DixaMessenger.PushNotifications.processNewMessage(remoteMessage)
-			}	
 		}
 		else -> {
 			result.notImplemented()

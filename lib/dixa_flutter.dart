@@ -24,8 +24,4 @@ class DixaFlutter {
   Future<void> openMessenger() {
     return DixaFlutterPlatform.instance.openMessenger();
   }
-
-  Future<void> processPushMessage(Object message) async {
-    return DixaFlutterPlatform.instance.processPushMessage(message);
-  }
 }

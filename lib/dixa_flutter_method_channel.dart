@@ -44,11 +44,4 @@ class MethodChannelDixaFlutter extends DixaFlutterPlatform {
   Future<void> openMessenger() async {
     await methodChannel.invokeMethod('openMessenger');
   }
-
-  @override
-  Future<void> processPushMessage(Object message) async {
-    await methodChannel.invokeMethod('openMessenger', {
-      "remoteMessage": message,
-    });
-  }
 }
