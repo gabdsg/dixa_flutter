@@ -1,6 +1,6 @@
 name: dixa_flutter
 description: Flutter plugin for Dixa Messenger
-version: 0.0.2
+version: 0.0.3
 homepage: http://gabdsg.com/
 
 environment:
