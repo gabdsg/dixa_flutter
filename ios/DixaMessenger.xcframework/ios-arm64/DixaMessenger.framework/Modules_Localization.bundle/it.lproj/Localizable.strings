@@ -368,3 +368,7 @@
 "dixa_knowledge_search_placeholder_no_results_try_another" = "Prova un'altra parola chiave";
 
 "dixa_message_waiting_for_agent" = "In attesa di partecipazione da parte dell'agente";
+
+"dixa_end_conversation_title" = "Termina questa conversazione";
+
+"dixa_end_conversation_info" = "Facendo clic sul pulsante qui sotto terminerai la conversazione attuale.";

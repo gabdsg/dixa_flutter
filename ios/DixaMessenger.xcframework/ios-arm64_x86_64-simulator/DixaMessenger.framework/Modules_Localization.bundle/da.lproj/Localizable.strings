@@ -368,3 +368,7 @@
 "dixa_knowledge_search_placeholder_no_results_try_another" = "Prøv et andet nøgleord";
 
 "dixa_message_waiting_for_agent" = "Venter på, at en medarbejder tilslutter";
+
+"dixa_end_conversation_title" = "Luk samtale";
+
+"dixa_end_conversation_info" = "Ved at klikke på knappen nedenfor, vil du afslutte din aktuelle samtale.";

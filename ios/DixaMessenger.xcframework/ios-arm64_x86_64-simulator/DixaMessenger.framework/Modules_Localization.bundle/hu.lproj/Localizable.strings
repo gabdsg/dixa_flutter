@@ -368,3 +368,7 @@
 "dixa_knowledge_search_placeholder_no_results_try_another" = "Próbálkozz egy másik kulcsszóval";
 
 "dixa_message_waiting_for_agent" = "Várakozás a munkatársunk csatlakozására";
+
+"dixa_end_conversation_title" = "Beszélgetés befejezése";
+
+"dixa_end_conversation_info" = "Az alábbi gomb megnyomásával ön befejezi a beszélgetést.";

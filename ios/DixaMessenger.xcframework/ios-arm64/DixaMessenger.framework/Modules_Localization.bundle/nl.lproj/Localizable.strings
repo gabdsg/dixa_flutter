@@ -370,3 +370,7 @@ of een e-mail naar onze klantenservice sturen.";
 "dixa_knowledge_search_placeholder_no_results_try_another" = "Probeer een ander trefwoord";
 
 "dixa_message_waiting_for_agent" = "Wachten op een medewerker om deel te nemen";
+
+"dixa_end_conversation_title" = "Gesprek beëindigen";
+
+"dixa_end_conversation_info" = "Door op de knop hieronder te klikken zal je je huidige gesprek beëindigen.";
