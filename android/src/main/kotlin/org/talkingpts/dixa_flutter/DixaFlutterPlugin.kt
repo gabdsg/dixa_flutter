@@ -91,7 +91,7 @@ class DixaFlutterPlugin: FlutterPlugin, MethodCallHandler, ActivityAware {
 		 	val username = call.argument<String>("username")
 			val email = call.argument<String>("email")
 			if (username != null && email != null) {
-            	DixaMessenger.updateUserCredentials(name = username, email = email)
+            	DixaMessenger.updateUserCredentials(username, email)
 				result.success(true)
 			}else{
 				result.success(false)
@@ -103,7 +103,7 @@ class DixaFlutterPlugin: FlutterPlugin, MethodCallHandler, ActivityAware {
             result.success(true)
 		}
 		"openMessenger" -> {
-			DixaMessenger.openMessenger(activity = activity)
+			DixaMessenger.openMessenger(activity)
 		}
 		else -> {
 			result.notImplemented()
